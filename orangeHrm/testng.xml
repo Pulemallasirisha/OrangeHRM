@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="orangeHRM">
+	<listeners>
+		<listener class-name="com.orangeHrm.utilities.Reporting1"/>
+	</listeners>
+  <test name="AppTest">
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+     <!--  <class name="com.orangeHrm.testCases.TC_LoginTest_001"/>-->
+      <!-- <class name="com.orangeHrm.testCases.TC_LoginDataDrivenTest_002"/>-->
+      <!-- <class name="com.orangeHrm.testCases.TC_ForgetPwd_003"/>-->
+      <!-- <class name="com.orangeHrm.testCases.TC_CreateAdminJobTitles_004"/>-->
+     <!--  <class name="com.orangeHrm.testCases.TC_SearchEmployee_005"/>-->
+      <!-- <class name="com.orangeHrm.testCases.TC_DeleteEmployee_006"/>-->
+       <class name="com.orangeHrm.testCases.TC_EmployeeClaims_007"/>
+      <class name="orangeHrm.orangeHrm.AppTest"/>
+    </classes>
+  </test> 
+</suite>
